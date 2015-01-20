@@ -1,13 +1,13 @@
 # Site settings
 title: Clean Blog
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: castanedafederico@gmail.com
+description: "Federico Castaneda's blog and stuff. "
 url: https//federicocastaneda.com
 baseurl: ''
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: fedcastaneda
+github_username:  federicocastaneda
+facebook_username:  federicocastaneda
 
 # Build settings
 markdown: kramdown
