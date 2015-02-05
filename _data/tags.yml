@@ -1,29 +1,26 @@
-- slug: django
-  name: Django
+- slug: css
+  name: CSS
 
-- slug: django-template-tags
-  name: Django Template Tags
+- slug: drupal
+  name: Drupal
 
-- slug: font-awesome
-  name: Font Awesome
-
-- slug: icons
-  name: Icons
-
-- slug: image-processing
-  name: Image Processing
-
-- slug: journal
-  name: Journal
-
-- slug: github
-  name: GitHub
+- slug: experiment
+  name: Experiment
 
 - slug: github-pages
   name: GitHub Pages
 
+- slug: github
+  name: GitHub
+
+- slug: javascript
+  name: Javascript
+
 - slug: jekyll
   name: Jekyll
+
+- slug: jquery
+  name: jQuery  
   
 - slug: open-source
   name: Open Source
