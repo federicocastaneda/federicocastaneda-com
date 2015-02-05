@@ -6,7 +6,7 @@ date:       2014-09-24 12:00:00
 author:     "Start Bootstrap"
 comments: 	true
 category: 	general
-tags: 		[jekyll]
+tags: 		[jekyll, css]
 header-img: "img/post-bg-06.jpg"
 ---
 

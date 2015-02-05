@@ -7,7 +7,6 @@ url: http://federicocastaneda.com
 baseurl: ''
 twitter_username: fedcastaneda
 github_username:  federicocastaneda
-facebook_username:  federicocastaneda
 
 # Build settings
 markdown: kramdown
