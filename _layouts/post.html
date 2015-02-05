@@ -59,8 +59,9 @@ layout: default
             {% assign tags_content = '' %}
         {% endif %}
 
-        <p id="post-meta">Posted {{ category_content }}{{ tags_content }}</p>				
-
+		<div class="meta-tags">
+        	<p id="post-meta">Posted {{ category_content }}{{ tags_content }}</p>				
+		</div>
                 <hr>
 				
 				{% if page.comments %}
