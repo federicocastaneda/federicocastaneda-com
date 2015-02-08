@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "init commit"
-subtitle:   "entry to test evergreen system"
+title:      "lorem ipsum"
+subtitle:   "another entry"
 date:       2015-02-08 12:00:01
 author:     "Federico"
 comments: 	true
