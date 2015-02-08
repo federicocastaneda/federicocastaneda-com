@@ -48,17 +48,22 @@
 </footer>
 
 <!-- jQuery -->
-<script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+<!-- <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script> -->
 
 <!-- Jekyll Search dependencies -->
+<!--
 <script src="{{ "/js/lunr.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/mustache.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/date.format.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/URI.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/jquery.lunr.search.js " | prepend: site.baseurl }}"></script>
+-->
+
+<!-- concatenated and minified version of libraries above. jQuery+lunr search dependencies -->
+<script src="{{ "/js/search.min.js " | prepend: site.baseurl }}"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/clean-blog.js " | prepend: site.baseurl }}"></script>
