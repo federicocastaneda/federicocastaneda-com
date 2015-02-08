@@ -393,6 +393,60 @@ form .row:first-child .floating-label-form-group {
   background-color: #404040;
   cursor: not-allowed;
 }
+div.cats-tags {
+  width: 100%;
+}
+div.cats-tags nav.vertical {
+  overflow: hidden;
+  text-align: center;
+}
+div.cats-tags nav.vertical > ul {
+  list-style-type: none;
+}
+div.cats-tags nav.vertical > ul > li {
+  display: block;
+}
+div.cats-tags nav.vertical > ul > li > label,
+div.cats-tags nav.vertical > ul > li > a {
+  display: block;
+  text-transform: uppercase;
+  transition: all .1s ease;
+}
+div.cats-tags nav.vertical > ul > li > label:hover,
+div.cats-tags nav.vertical > ul > li > a:hover {
+  cursor: pointer;
+}
+div.cats-tags nav.vertical > ul > li > label + input {
+  display: none;
+  visability: hidden;
+}
+div.cats-tags nav.vertical > ul > li > div {
+  background-color: #ffffff;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .5s linear;
+}
+div.cats-tags nav.vertical > ul > li > label + input:checked + div {
+  max-height: 500px;
+}
+div.cats-tags nav.vertical > ul > li > div > ul {
+  list-style-type: none;
+}
+div.cats-tags nav.vertical > ul > li > div > ul > li > a {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  color: #333331;
+  display: block;
+  font-size: 1.1rem;
+  padding: 10px 0;
+  text-decoration: none;
+  transition: all 0.15s linear;
+}
+div.cats-tags nav.vertical > ul > li > div > ul > li:hover > a {
+  background-color: lightBlue;
+  color: #ffffff;
+  padding: 10px 0 10px 50px;
+}
 #search #search-query {
   text-align: center;
   color: #404040;
