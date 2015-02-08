@@ -16,9 +16,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae felis ut u
 
 Etiam neque felis, congue in facilisis at, vestibulum at mauris. Aenean laoreet sit amet augue et finibus. Praesent finibus dictum arcu et malesuada. Praesent ipsum libero, ultrices nec nibh eget, porttitor tincidunt lectus. Nullam purus nulla, efficitur vitae dui sed, sodales cursus eros. Nam molestie orci et tortor fringilla, ac semper libero accumsan. Praesent laoreet, velit at dictum molestie, lectus elit euismod neque, in bibendum est metus in odio. Cras nec congue mi, vel placerat augue. Mauris in lobortis sapien. Pellentesque risus quam, auctor eget faucibus eget, aliquam eget odio.
 
-Nunc consequat blandit dapibus. In quis interdum massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec porttitor tortor sed bibendum ultrices. Maecenas mauris velit, rutrum in sapien non, fermentum porta nibh. Phasellus non cursus sem. Nunc malesuada sem tempus interdum tristique.
+<blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
 
 Sed scelerisque congue porta. Integer id auctor nunc. Nullam bibendum egestas libero, nec congue metus tempor vel. Maecenas ullamcorper, enim at pulvinar commodo, lectus justo accumsan sapien, eget tristique orci augue nec tortor. Aenean suscipit diam a orci luctus tempor. Cras maximus, tortor et finibus pulvinar, erat urna vehicula metus, at gravida odio sapien vitae nisi. In odio lorem, finibus nec est at, commodo luctus turpis. Aenean purus ligula, feugiat sit amet lacus nec, laoreet lobortis enim. Sed imperdiet, libero sed maximus semper, felis lectus bibendum lectus, eget sodales urna mi vel justo. Nulla sit amet nibh sed nibh dapibus vestibulum quis id tortor. Integer volutpat vulputate leo, vel gravida sapien tempus at. Aliquam in rhoncus diam. Etiam eget sapien suscipit, iaculis dui sit amet, interdum lectus. Nam semper libero vel luctus tempor. Suspendisse potenti. Mauris semper velit sed odio auctor rhoncus.
+
+<h2 class="section-heading">Reaching for the Stars</h2>
+ 
+As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.
+ 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
+</a>
 
 Etiam tincidunt malesuada lorem ac mattis. Mauris vehicula lectus tempus lorem iaculis pretium. Duis vestibulum id sem vel dignissim. Ut posuere mi leo, nec aliquet mauris euismod ut. Curabitur et nunc vitae felis lacinia viverra. Praesent laoreet massa mi, finibus interdum orci cursus sit amet. Vivamus fringilla suscipit tempor.
 
