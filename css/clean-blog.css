@@ -393,6 +393,10 @@ form .row:first-child .floating-label-form-group {
   background-color: #404040;
   cursor: not-allowed;
 }
+#search #search-query {
+  text-align: center;
+  color: #404040;
+}
 ::-moz-selection {
   color: white;
   text-shadow: none;
