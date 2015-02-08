@@ -1,8 +1,10 @@
 ---
 layout:     post
 title:      "init commit"
+subtitle:   "entry to test evergreen system"
 date:       2015-02-08 12:00:00
 author:     "Federico"
+comments: 	true
 header-img: "img/post-bg-05.jpg"
 category: 	general
 tags: 		[jekyll]
