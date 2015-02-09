@@ -400,6 +400,9 @@ form .row:first-child .floating-label-form-group {
 .cats-tags a.list-group-item {
   color: #404040;
 }
+.cats-tags .cats-tags-row:first-child {
+  margin-bottom: 10px;
+}
 #search #search-query {
   text-align: center;
   color: #404040;

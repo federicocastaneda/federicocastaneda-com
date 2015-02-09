@@ -25,25 +25,26 @@ layout: default
 		</div>
 		<div class="col-lg-2">
 			<div class="cats-tags list-group">
-				<span class="label">Categories</span>
 				
-			{% for category in site.categories %}
+				<div class="cats-tags-row">
+					<span class="label">Categories</span>
+
+						{% for category in site.categories %}
+							<a class="list-group-item" href="/blog/category/{{ category | first | slugize }}/">
+							{{ category | first }} <span class="badge">{{ category | last | size }}</span>
+        					</a>
+						{% endfor %}
+				</div>
 				
-					<a class="list-group-item" href="/blog/category/{{ category | first | slugize }}/">
-					{{ category | first }} <span class="badge">{{ category | last | size }}</span>
-        			</a>
-				
-			{% endfor %}
-				
-				<span class="label">Tags</span>
+				<div class="cats-tags-row">
+					<span class="label">Tags</span>
 						
-			{% for tag in site.tags %}
-				
-					<a class="list-group-item" href="/blog/tag/{{ tag | first | slugize }}/">
-					{{ tag | first }} <span class="badge">{{ tag | last | size }}</span>
-        			</a>
-				
-			{% endfor %}
+						{% for tag in site.tags %}
+							<a class="list-group-item" href="/blog/tag/{{ tag | first | slugize }}/">
+							{{ tag | first }} <span class="badge">{{ tag | last | size }}</span>
+        					</a>
+						{% endfor %}
+				</div>
 				
 			</div>
 		</div>	
