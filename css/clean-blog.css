@@ -393,6 +393,13 @@ form .row:first-child .floating-label-form-group {
   background-color: #404040;
   cursor: not-allowed;
 }
+.cats-tags .label,
+.cats-tags .badge {
+  background-color: #404040;
+}
+.cats-tags a.list-group-item {
+  color: #404040;
+}
 #search #search-query {
   text-align: center;
   color: #404040;
