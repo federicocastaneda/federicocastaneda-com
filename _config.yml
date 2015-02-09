@@ -16,3 +16,12 @@ relative_permalinks: true
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 gems: ['jekyll-lunr-js-search']
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#        
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-30917915-1'
