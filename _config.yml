@@ -21,3 +21,7 @@ gems: ['jekyll-lunr-js-search']
 analytics:
   # Add tracking code in _includes/_google-analytics.html
   google: true
+
+# Sitemap
+gems:
+  - jekyll-sitemap
