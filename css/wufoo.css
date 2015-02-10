@@ -10,7 +10,7 @@
   padding-bottom: 0.5em;
   border-bottom: 1px solid #eeeeee;
 }
-.wufoo input,
+.wufoo input.text,
 .wufoo textarea {
   z-index: 1;
   position: relative;
