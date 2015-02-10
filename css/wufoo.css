@@ -43,6 +43,13 @@
   padding-left: 14px;
   border-left: 1px solid #eeeeee;
 }
+.wufoo li {
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #eeeeee;
+}
 .wufoo .buttons .btTxt.submit {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
