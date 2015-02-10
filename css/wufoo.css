@@ -10,7 +10,7 @@
   padding-bottom: 0.5em;
   border-bottom: 1px solid #eeeeee;
 }
-.wufoo input.text,
+.wufoo input,
 .wufoo textarea {
   z-index: 1;
   position: relative;
@@ -42,7 +42,4 @@
 .wufoo::not(:first-child) {
   padding-left: 14px;
   border-left: 1px solid #eeeeee;
-}
-#Field7 {
-  background: red !important;
 }
