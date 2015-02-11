@@ -45,6 +45,10 @@
   opacity: 2;
   background-color: #fff;
   outline: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
 }
 .wufoo textarea {
   width: 100%;
@@ -60,6 +64,10 @@
   opacity: 2;
   background-color: #fff;
   outline: 0;
+  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
+  -moz-transition: top 0.3s ease,opacity 0.3s ease;
+  -ms-transition: top 0.3s ease,opacity 0.3s ease;
+  transition: top 0.3s ease,opacity 0.3s ease;
 }
 .wufoo label {
   display: block;
@@ -72,10 +80,7 @@
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 1;
-  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
-  transition: top 0.3s ease,opacity 0.3s ease;
+  color: #999;
 }
 .wufoo::not(:first-child) {
   padding-left: 14px;
