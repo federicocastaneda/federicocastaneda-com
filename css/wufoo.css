@@ -112,6 +112,7 @@
   border-width: 1px;
   border-style: solid;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 .wufoo .buttons .btTxt.submit:hover,
 .wufoo .buttons .btTxt.submit:focus {
