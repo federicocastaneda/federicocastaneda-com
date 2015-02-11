@@ -52,6 +52,7 @@
   color: #555;
   border: none;
   resize: none;
+  background-image: none;
 }
 .wufoo label {
   display: block;
