@@ -39,7 +39,7 @@
   color: #555;
   border: none;
   outline: 0;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #999;
 }
 .wufoo input.field.text:focus {
   opacity: 2;
@@ -59,10 +59,10 @@
   border-top-color: transparent;
   border-top-style: solid;
   border-top-width: 1px;
-  border-right-color: #eeeeee;
+  border-right-color: #999;
   border-right-style: solid;
   border-right-width: 1px;
-  border-bottom-color: #eeeeee;
+  border-bottom-color: #999;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-left-color: transparent;
@@ -103,7 +103,7 @@
 }
 .wufoo::not(:first-child) {
   padding-left: 14px;
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid #999;
 }
 .wufoo .leftLabel .desc {
   width: 25%;
