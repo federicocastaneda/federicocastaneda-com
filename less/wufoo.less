@@ -42,7 +42,7 @@
 		border: none;
         	&:hover,
 			&:focus {
-						
+						opacity: 2;
 					}
 	}
 	textarea  {
@@ -66,14 +66,15 @@
 		line-height: 1.764705882em;
 		vertical-align: middle;
 		vertical-align: baseline;
-		opacity: 2;
+		opacity: 1;
 		-webkit-transition: top 0.3s ease,opacity 0.3s ease;
 		-moz-transition: top 0.3s ease,opacity 0.3s ease;
 		-ms-transition: top 0.3s ease,opacity 0.3s ease;
 		transition: top 0.3s ease,opacity 0.3s ease;
 			&:hover,
-			&:focus {
-						opacity: 0;
+			&:focus,
+			 {
+						
 					}
 	}
 	&::not(:first-child) {
