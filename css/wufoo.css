@@ -69,7 +69,8 @@
   -ms-transition: top 0.3s ease,opacity 0.3s ease;
   transition: top 0.3s ease,opacity 0.3s ease;
 }
-.wufoo label {
+.wufoo label,
+.wufoo label.desc {
   display: block;
   z-index: 0;
   position: relative;
