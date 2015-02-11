@@ -19,11 +19,6 @@
 	position: relative;
 	margin-bottom: 0;
 	padding-bottom: 0.5em;
-/*
-	
-	border-bottom: 1px solid @gray-light;
-	
-*/
 	input {
 		display: block;
 		z-index: 1;
@@ -49,6 +44,7 @@
 		color: #555;
 		border: none;
 		outline: 0;
+		border-bottom: 1px solid @gray-light;
 			&:focus {
 						opacity: 2;
 						background-color: #fff;
@@ -65,7 +61,18 @@
 		font-size: 1.5em;
 		border-radius: 0;
 		color: #555;
-		border: none;
+		border-top-color: transparent;
+		border-top-style: solid;
+		border-top-width: 1px;
+		border-right-color: @gray-light;
+		border-right-style: solid;
+		border-right-width: 1px;
+		border-bottom-color: @gray-light;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-left-color: transparent;
+		border-left-style: solid;
+		border-left-width: 1px;
 		resize: none;
 		background-image: none;
 		outline: 0;
@@ -106,12 +113,15 @@
 		padding-left: 14px;
 		border-left: 1px solid @gray-light;
 	}
+	.leftLabel .desc {
+		width: 25%;
+	}
 	li {
 		font-size: 14px;
 		position: relative;
 		margin-bottom: 0;
 		padding-bottom: 0.5em;
-		border-bottom: 1px solid #eeeeee;
+		// border-bottom: 1px solid #eeeeee;
 	}
 	.buttons {
 		.btTxt.submit  {
@@ -138,5 +148,8 @@
 					
 				}
 			}
+	.noI .leftLabel .buttons {
+		padding-left: 76%;
+	}
 	
 }
