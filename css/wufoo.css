@@ -28,6 +28,11 @@
   line-height: 1.42857143;
   background-image: none;
 }
+.wufoo input:hover,
+.wufoo input:focus {
+  opacity: 2;
+  outline: 0;
+}
 .wufoo input.field.text {
   height: 34px;
   width: 100%;
@@ -46,6 +51,7 @@
   border-radius: 0;
   color: #555;
   border: none;
+  resize: none;
 }
 .wufoo label {
   display: block;
