@@ -136,6 +136,6 @@
   border: 1px solid #0085a1;
   color: white;
 }
-.wufoo .noI .leftLabel .buttons {
+.wufoo li.buttons {
   padding-left: 76%;
 }
