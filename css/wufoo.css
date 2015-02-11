@@ -50,7 +50,8 @@
   -ms-transition: top 0.3s ease,opacity 0.3s ease;
   transition: top 0.3s ease,opacity 0.3s ease;
 }
-.wufoo textarea {
+.wufoo textarea,
+.wufoo textarea.textarea {
   width: 100%;
   font-size: 1.5em;
   border-radius: 0;
@@ -60,7 +61,8 @@
   background-image: none;
   outline: 0;
 }
-.wufoo textarea:focus {
+.wufoo textarea:focus,
+.wufoo textarea.textarea:focus {
   opacity: 2;
   background-color: #fff;
   outline: 0;
