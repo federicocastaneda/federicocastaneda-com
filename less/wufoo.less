@@ -20,27 +20,30 @@
 	margin-bottom: 0;
 	padding-bottom: 0.5em;
 	border-bottom: 1px solid @gray-light;
-	input,
-	textarea {
+	input {
 		display: block;
-		width: 100%;
 		z-index: 1;
-		font-size: 1.5em;
 		position: relative;
 		padding-right: 0;
 		padding-left: 0;
-		border: none;
-		border-radius: 0;
-		font-size: 1.5em;
+		
+		
+		
 		background: none;
 		box-shadow: none !important;
 		resize: none;
 		line-height: 1.42857143;
-		color: #555;
+		
 		background-image: none;
 	}
-	input.field.text {
+	input.field.text,
+	textarea {
 		height: 34px;
+		width: 100%;
+		font-size: 1.5em;
+		border-radius: 0;
+		color: #555;
+		border: none;
         	&:hover,
 			&:focus {
 						
