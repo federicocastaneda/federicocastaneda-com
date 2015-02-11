@@ -28,7 +28,6 @@
   line-height: 1.42857143;
   background-image: none;
 }
-.wufoo input:hover,
 .wufoo input:focus {
   opacity: 2;
   outline: 0;
@@ -40,10 +39,12 @@
   border-radius: 0;
   color: #555;
   border: none;
+  outline: 0;
 }
-.wufoo input.field.text:hover,
 .wufoo input.field.text:focus {
   opacity: 2;
+  background-color: #fff;
+  outline: 0;
 }
 .wufoo textarea {
   width: 100%;
@@ -53,6 +54,12 @@
   border: none;
   resize: none;
   background-image: none;
+  outline: 0;
+}
+.wufoo textarea:focus {
+  opacity: 2;
+  background-color: #fff;
+  outline: 0;
 }
 .wufoo label {
   display: block;
