@@ -9,13 +9,11 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
 	<meta property="og:site_name" content="federico castaneda">
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-	<!-- <meta property="og:description" content="Washington DC based Front-end Developer with a focus on Drupal and general Front-end technologies."> -->
 	{% if page.subtitle %}
 	<meta property="og:description" content="{{ page.subtitle }}" />
   	{% else %}
   	<meta property="og:description" content="{{ site.description }}" />
   	{% endif %}
-	<!-- <meta property="og:type" content="website"> -->
 	{% if page.title %}
 	<meta property="og:type" content="article" />
 		{% else %}
