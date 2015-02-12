@@ -4,6 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta property="og:site_name" content="federico castaneda">
+	<meta property="og:url" content="http://federicocastaneda.com/">
+	<meta property="og:description" content="I am a Front-end Developer. This is my blog.  The theme is based off the Clean Blog by Start Bootstrap.">
+	<meta property="fb:app_id" content="">
+	<meta property="og:type" content="website">
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
@@ -17,6 +23,12 @@
 
     <!-- Pygments Github CSS -->
     <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
+    
+    <!-- Selection Sharer -->
+    <link rel="stylesheet" href="{{ "/css/selection-sharer.css" | prepend: site.baseurl }}">
+    
+	<!-- Selection sharer -->
+	<link rel="stylesheet" href="{{ "/css/selection-sharer.css" | prepend: site.baseurl }}">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
