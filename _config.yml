@@ -13,7 +13,7 @@ markdown: kramdown
 highlighter: pygments
 permalink: pretty
 relative_permalinks: true
-paginate: 5
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 gems: ['jekyll-lunr-js-search']
 
