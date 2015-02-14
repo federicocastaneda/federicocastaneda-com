@@ -25,7 +25,7 @@ Sed scelerisque congue porta. Integer id auctor nunc. Nullam bibendum egestas li
 As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.
  
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image" data-zoom='{animation:"fade", speed:"fast", theme:"dark"}' />
 </a>
 
 Etiam tincidunt malesuada lorem ac mattis. Mauris vehicula lectus tempus lorem iaculis pretium. Duis vestibulum id sem vel dignissim. Ut posuere mi leo, nec aliquet mauris euismod ut. Curabitur et nunc vitae felis lacinia viverra. Praesent laoreet massa mi, finibus interdum orci cursus sit amet. Vivamus fringilla suscipit tempor.
